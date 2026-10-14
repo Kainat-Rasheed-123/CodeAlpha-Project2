@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery | Frontend Project</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <a href="#" class="logo">Pixel<span>Gallery.</span></a>
+      <span class="nav-label">CREATIVE COLLECTION</span>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">DISCOVER • EXPLORE • INSPIRE</p>
+      <h1>Every Picture<br> Tells a <span>Story.</span></h1>
+      <p class="hero-text">
+        A curated collection of beautiful moments,
+        incredible places, and the world around us.
+      </p>
+      <a href="#gallery" class="explore-btn">Explore Gallery ↓</a>
+    </div>
+  </header>
+  <main id="gallery" class="gallery-section">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">VISUAL JOURNAL</p>
+        <h2>Explore the Gallery</h2>
+      </div>
+      <p class="gallery-description">
+        Find beauty in every frame.
+      </p>
+    </div>
+    <div class="filters" role="group" aria-label="Filter images">
+      <button class="filter-btn active" data-filter="all">All Photos</button>
+      <button class="filter-btn" data-filter="nature">Nature</button>
+      <button class="filter-btn" data-filter="architecture">
+        Architecture
+      </button>
+      <button class="filter-btn" data-filter="animals">Animals</button>
+    </div>
+    <div class="gallery-grid">
+      <article class="gallery-card" data-category="nature">
+        <img
+          src="images/image1.jpg" 
+          alt="Mountain lake surrounded by green hills"
+          loading="lazy">
+        <div class="card-info">
+          <span>Nature</span>
+          <h3>Mountain Escape</h3>
+        </div>
+        <button class="view-btn" aria-label="View Mountain Escape">↗</button>
+      </article>
+      <article class="gallery-card" data-category="architecture">
+        <img
+          src="images/image2.jpg"
+          alt="Modern white architectural building"
+          loading="lazy">
+        <div class="card-info">
+          <span>Architecture</span>
+          <h3>Modern Lines</h3>
+        </div>
+        <button class="view-btn" aria-label="View Modern Lines">↗</button>
+      </article>
+      <article class="gallery-card" data-category="animals">
+        <img
+          src="images/image3.jpg"
+          alt="Deer standing in a natural forest"
+          loading="lazy">
+        <div class="card-info">
+          <span>Animals</span>
+          <h3>Wild Encounters</h3>
+        </div>
+        <button class="view-btn" aria-label="View Wild Encounters">↗</button>
+      </article>
+      <article class="gallery-card" data-category="nature">
+        <img
+          src="images/image4.jpg"
+          alt="Sunlight shining through a forest"
+          loading="lazy">
+        <div class="card-info">
+          <span>Nature</span>
+          <h3>Into the Woods</h3>
+        </div>
+        <button class="view-btn" aria-label="View Into the Woods">↗</button>
+      </article>
+      <article class="gallery-card" data-category="architecture">
+        <img
+          src="images/image5.webp"
+          alt="Contemporary architectural design"
+          loading="lazy">
+        <div class="card-info">
+          <span>Architecture</span>
+          <h3>Urban Geometry</h3>
+        </div>
+        <button class="view-btn" aria-label="View Urban Geometry">↗</button>
+      </article>
+      <article class="gallery-card" data-category="animals">
+        <img
+          src="images/image6.jpg"
+          alt="Lion in its natural environment"
+          loading="lazy">
+        <div class="card-info">
+          <span>Animals</span>
+          <h3>King of the Wild</h3>
+        </div>
+        <button class="view-btn" aria-label="View King of the Wild">↗</button>
+      </article>
+      <article class="gallery-card" data-category="nature">
+        <img
+          src="images/image7.jpg"
+          alt="Scenic landscape beneath a beautiful sky"
+          loading="lazy">
+        <div class="card-info">
+          <span>Nature</span>
+          <h3>Open Horizons</h3>
+        </div>
+        <button class="view-btn" aria-label="View Open Horizons">↗</button>
+      </article>
+      <article class="gallery-card" data-category="architecture">
+        <img
+          src="images/image8.jpg"
+          alt="Shiny Building in sunlight"
+          loading="lazy">
+        <div class="card-info">
+          <span>Architecture</span>
+          <h3>Shiny Building</h3>
+        </div>
+        <button class="view-btn" aria-label="View Urban Geometry">↗</button>
+      </article>
+      <article class="gallery-card" data-category="animals">
+        <img
+          src="images/image9.jpg"
+          alt="Happy dog looking at the camera"
+          loading="lazy">
+        <div class="card-info">
+          <span>Animals</span>
+          <h3>Little Companion</h3>
+        </div>
+        <button class="view-btn" aria-label="View Little Companion">↗</button>
+      </article>
+      <article class="gallery-card" data-category="nature">
+        <img
+          src="images/image10.jpg"
+          alt="Scenic landscape beneath a beautiful sky"
+          loading="lazy">
+        <div class="card-info">
+          <span>Nature</span>
+          <h3>Beautiful Scenery</h3>
+        </div>
+        <button class="view-btn" aria-label="View Open Horizons">↗</button>
+      </article>
+      <article class="gallery-card" data-category="architecture">
+        <img
+          src="images/image11.webp"
+          alt="Shiny Building in sunlight"
+          loading="lazy">
+        <div class="card-info">
+          <span>Architecture</span>
+          <h3>Architectural Building</h3>
+        </div>
+        <button class="view-btn" aria-label="View Urban Geometry">↗</button>
+      </article>
+      <article class="gallery-card" data-category="animals">
+        <img
+          src="images/image12.jpg"
+          alt="Happy dog looking at the camera"
+          loading="lazy">
+        <div class="card-info">
+          <span>Animals</span>
+          <h3>Bear</h3>
+        </div>
+        <button class="view-btn" aria-label="View Little Companion">↗</button>
+      </article>
+<article class="gallery-card" data-category="nature">
+        <img
+          src="images/image13.jpg"
+          alt="Scenic landscape beneath a beautiful sky"
+          loading="lazy">
+        <div class="card-info">
+          <span>Nature</span>
+          <h3>Hills with watercourse</h3>
+        </div>
+        <button class="view-btn" aria-label="View Open Horizons">↗</button>
+      </article>
+      <article class="gallery-card" data-category="architecture">
+        <img
+          src="images/image14.jpg"
+          alt="Shiny Building in sunlight"
+          loading="lazy">
+        <div class="card-info">
+          <span>Architecture</span>
+          <h3>Elegant Building</h3>
+        </div>
+        <button class="view-btn" aria-label="View Urban Geometry">↗</button>
+      </article>
+      <article class="gallery-card" data-category="animals">
+        <img
+          src="images/image15.jpg"
+          alt="Happy dog looking at the camera"
+          loading="lazy">
+        <div class="card-info">
+          <span>Animals</span>
+          <h3>Panda</h3>
+        </div>
+        <button class="view-btn" aria-label="View Little Companion">↗</button>
+      </article>
+      <article class="gallery-card" data-category="nature">
+        <img
+          src="images/image16.jpg"
+          alt="Scenic landscape beneath a beautiful sky"
+          loading="lazy">
+        <div class="card-info">
+          <span>Nature</span>
+          <h3>A scenery</h3>
+        </div>
+        <button class="view-btn" aria-label="View Open Horizons">↗</button>
+      </article>
+      <article class="gallery-card" data-category="architecture">
+        <img
+          src="images/image17.webp"
+          alt="Shiny Building in sunlight"
+          loading="lazy">
+        <div class="card-info">
+          <span>Architecture</span>
+          <h3>Building Architect </h3>
+        </div>
+        <button class="view-btn" aria-label="View Urban Geometry">↗</button>
+      </article>
+      <article class="gallery-card" data-category="animals">
+        <img
+          src="images/image18.jpeg"
+          alt="Happy dog looking at the camera"
+          loading="lazy">
+        <div class="card-info">
+          <span>Animals</span>
+          <h3>Peacock</h3>
+        </div>
+        <button class="view-btn" aria-label="View Little Companion">↗</button>
+      </article>
+    </div>
+    <p class="image-count" aria-live="polite"></p>
+  </main>
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox"
+       role="dialog" aria-modal="true"
+       aria-label="Image viewer" aria-hidden="true">
+    <button class="close-btn" id="closeBtn"
+            aria-label="Close image viewer">×</button>
+    <button class="lightbox-nav prev-btn" id="prevBtn"
+            aria-label="Previous image">❮</button>
+    <div class="lightbox-content">
+      <img id="lightboxImage" src="" alt="">
+      <div class="lightbox-caption">
+        <span id="lightboxCategory"></span>
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxCounter"></p>
+      </div>
+    </div>
+    <button class="lightbox-nav next-btn" id="nextBtn"
+            aria-label="Next image">❯</button>
+  </div>
+  <footer>
+    <p>Beauty in every frame </p>
+    <p>© 2026 PixelGallery. All rights reserved.</p>
+  </footer>
+</body>
+</html>
